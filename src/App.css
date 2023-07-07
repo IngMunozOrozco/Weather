@@ -1,0 +1,289 @@
+    
+    body{
+      background-image: radial-gradient(#D5F3FF 0%, #51B4E8 100%);
+      
+        
+  }
+  .container {
+      width: 100%;
+      max-width: 1200px;
+      margin:  auto;
+      height: 100px;
+     
+    }
+    img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .row-1 {
+      display: flex;
+      justify-content: space-between;
+      height: 100px;
+      align-items: end;
+      
+    }
+  .row-1 .wet{
+    color: beige;
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: bold;
+    bottom: 20px;
+    
+    
+  }
+    .row-2 {
+      margin-top: 140px;
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      margin-left: 160px;
+    }
+
+.row-2 .unit-toggle{
+  width: 178px;
+  height: 38px;
+  border-radius: 13px;
+  border-color: #38A0D8;
+  background-color: #38A0D8;
+  color: beige;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: bold;
+  
+  
+}
+
+    #wrapper {
+      position:relative;
+      top: 80px;
+      width: auto;
+      height: auto;
+      
+  } 
+ 
+  
+  #wrapper #div1{
+      
+      width: 450px;
+      height: 288px;
+  
+  }
+  
+  #div1{
+      background-image: radial-gradient(#E5F2FF 0%, #D5F3FF 97.4%);
+      margin-left: 466px;
+      top: 60px;
+      width: 430px;
+      clip-path: polygon(100% 21%, 100% 100%, 0 100%, 0 0);
+  
+      border-radius: 40px;
+  }
+  
+  #div2 {
+      position: absolute;
+      top: 215px;
+      left: 800px;
+      align-items: end;
+      justify-content: end;
+      color: #026EED;
+    font-family: 'Lato', sans-serif;
+    font-size: 140%;
+    font-stretch: semi-expanded;
+    font-weight: bolder;
+    margin-top: 20px;
+
+  }
+  
+  #div3 {
+      position: absolute;
+      top: -55px;
+      left: 750px;
+     
+  }
+  #wrapper #div3 {
+      height: 250px;
+      width: 250px;
+  }
+  
+  
+  #div4 {
+    position: absolute;
+    top: -40px;
+    left: 490px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start; 
+    
+        
+  }
+   #div4 #grade{
+   
+      height: 20px;
+      width: 20px;
+      font-size: 290%;
+      color: #56A5F1;
+      font-family: 'Lato', sans-serif;
+      font-family: Lato; 
+   
+
+   }
+  
+   #div5 {
+    position: absolute;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;    
+    font-size: 150%;
+    top: 150px;
+    left: 500px;
+    color: #56A5F1;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+
+   }
+
+   #div5 #state{
+    
+    color: #026EED;
+    font-family: 'Lato', sans-serif;
+    font-size: 100%;
+    font-stretch: semi-expanded;
+    font-weight: bolder;
+    margin-top: 20px;
+ }
+   
+ .search input{
+  width: 400px;
+  height: 29px;
+  border-radius: 13px;
+  border-color: #38A0D8;
+  background-color: #38A0D8;
+  color: beige;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: bold;
+ }
+
+
+    @media (max-width: 1000px) {
+      .container {
+        width: 100%;
+      }
+  
+      .row-1 {
+        left: -400px;
+       display: grid;
+       align-items: normal;
+      }
+
+      .container .wet{
+        width: 200px;
+        margin-top: 30px;
+        margin-left: 50px;
+       
+      }
+      .container .switch{
+    
+      top: -108px;
+      left: 500px;
+      }
+
+      .container .search{
+        width: 500px;
+        left: 200px;
+        margin-left: 38px;
+        margin-top: 40px;
+      }
+
+      .row-2 {
+        display: block;
+       
+      }
+      #wrapper{
+        flex-direction: column;
+        left: -400px;
+  
+      }
+
+      #wrapper #div1{
+        height: 340px;
+        width: 450px;
+        align-items: flex-start;
+      }
+
+    }
+
+
+    @media (max-width: 700px) {
+      .container {
+        width: 100%;
+      }
+  
+      .row-1 {
+        left: 200px;
+       display: grid;
+       align-items: normal;
+      }
+
+      .container .wet{
+        width: 200px;
+        margin-top: 30px;
+        margin-left: 50px;
+       
+      }
+      .container .switch{
+    
+      top: -108px;
+      left: 300px;
+      }
+
+      .container .search{
+     width: 2px;
+     
+        
+       
+      }
+
+      .row-2 {
+        display: block;
+       
+      }
+      #wrapper{
+        flex-direction: column;
+        left: -450px;
+        font-size: 15px;
+  
+      }
+
+      #wrapper #div1{
+        height: 340px;
+        width: 300px;
+        align-items: flex-start;
+        
+      }
+
+      #wrapper #div3{
+        height: 200px;
+        width: 150px;
+      top: 5px;
+       margin-left: -50px;
+        
+      }
+
+      #wrapper #div2{
+     
+      margin-left: -150px;
+       border-color: red;
+        
+      }
+
+    }
+
+
+    
+
+    
