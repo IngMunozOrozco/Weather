@@ -15,6 +15,8 @@ const App = () => {
 
   const handleSearch = searchData => {
     setData(searchData);
+    const { icon } = searchData.weather[0];
+    setWeatherIcon(icon);
   };
 
   const toggleUnit = () => {
@@ -86,13 +88,14 @@ const App = () => {
    
       <div id="wrapper">
         <div id="div1"></div>
+        
         <div id="div2">{data.weather ? <p>{data.weather[0].main}</p> : null}</div>
-
         <div id="div3" >
+          
           {weatherIcon && (
         <div>
           <img src={`${weatherIcon}.png`} alt="Weather Icon" className="weather-icon" /></div>)}</div>
-
+          
         <div id="div4">
           <div id="grade">{data.main ? <h1>{convertTemperature(data.main.temp)}°{unit}</h1> : null}</div>
         </div>
@@ -104,7 +107,7 @@ const App = () => {
           <div id="state">{data.name}, {data.sys?.country}</div>
         </div>
       </div>
-
+      
       <div className="row-2">
        
           <button className="unit-toggle" onClick={toggleUnit}>

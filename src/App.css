@@ -220,7 +220,8 @@
 
     @media (max-width: 700px) {
       .container {
-        width: 100%;
+        width: 90%;
+        
       }
   
       .row-1 {
@@ -241,28 +242,41 @@
       left: 300px;
       }
 
+      .container .search input{
+   
+     width:230px;
+     left: -200px;
+      }
+
       .container .search{
-     width: 2px;
-     
+        left: 200px;
         
-       
+        margin-left: 20px;
       }
 
       .row-2 {
-        display: block;
+       
+width: 180px;
+   margin-left: 70px;
        
       }
       #wrapper{
-        flex-direction: column;
+        display: inline-block;
         left: -450px;
         font-size: 15px;
   
       }
 
       #wrapper #div1{
-        height: 340px;
-        width: 300px;
+        height: 300px;
+        width: 280px;
         align-items: flex-start;
+        
+      }
+
+      #wrapper #div4{
+      top: -20px;
+     
         
       }
 
@@ -270,17 +284,15 @@
         height: 200px;
         width: 150px;
       top: 5px;
-       margin-left: -50px;
+       margin-left: -70px;
         
       }
 
       #wrapper #div2{
      
       margin-left: -150px;
-       border-color: red;
-        
+      top: 210px  
       }
-
     }
 
 

@@ -26,7 +26,7 @@ const SearchLocation = ({ onSearch }) => {
 
   return (
     <div className="search" >
-        <i class='bx bx-search'></i>
+        <i className='bx bx-search'></i>
       <input 
         value={location}
         onChange={event => setLocation(event.target.value)}
