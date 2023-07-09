@@ -272,7 +272,7 @@
 
       #wrapper #div1{
         height: 300px;
-        width: 335px;
+        width: 345px;
     
     
       }
@@ -281,21 +281,20 @@
       top: -20px;
       left: 475px;
       font-size: 13px;
-     
-        
+         
       }
 
       #wrapper #div3{
         height: 200px;
         width: 150px;
         top: 5px;
-        margin-left: -93px;
+        margin-left: -83px;
         
       }
 
       #wrapper #div2{
      
-      margin-left: -150px;
+      margin-left: -90px;
       top: 210px  
       }
 
